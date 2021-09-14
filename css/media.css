@@ -1,0 +1,47 @@
+/*small screen*/
+@media(max-width: 767px)
+{
+    .container {
+        width: 100%
+    }
+    header nav ul li { margin: 0px 20px; }
+    .life .our-life { width: 80%; margin: auto; }
+    .design .content { float: none; width: 80%; margin: auto; }
+    .work { top: 85px; position: relative; }
+    .work .our-box { margin: auto; }
+    .work .our-box .box { float:none; margin: auto 74px; }
+    .work .our-box .img-work { padding: 10px 0; }
+    .work .our-box .img-cam { margin: auto; right: 20px; position: relative; }
+    footer .our-footer ul { text-align: center; }
+    footer .our-footer p { padding-left: 25px; }
+    footer .logo { float: none; text-align: center; }
+    footer .logo img { padding-top: 20px; }
+    
+}
+/*mediam screen*/
+@media(min-width: 768px) and (max-width: 991px)
+{
+    .container {
+        width: 750px
+    }
+   header nav ul li { margin: 0px 47px;}
+    .life .our-life {width: 80%; margin: auto;}
+    .design .content h2,p {
+        padding-right: 10px;
+    }
+    footer .our-footer { padding: 0 50px; }
+    footer .all-footer { left: 12%; position: relative; }
+}
+/*large screen*/
+@media(min-width:992) and (max-width:1199px)
+{
+    .container {
+        width: 970px
+    }
+}
+/*exrta large screen*/
+@media(min-width:1200px)
+{
+    
+}
+/*end media query*/
